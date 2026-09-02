@@ -66,4 +66,5 @@ jobs:
           app-name: 'cityumgfunction'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          remote-build: true
+          scm-do-build-during-deployment: true
+          enable-oryx-build: true
