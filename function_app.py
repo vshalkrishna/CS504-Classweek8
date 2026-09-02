@@ -1,7 +1,7 @@
 import azure.functions as func
  
  
-app = func.FunctionApp(http_auth_level func.AuthLevel.Anonymous)
+app = func.FunctionApp(http_auth_level func.AuthLevel.ANONYMOUS)
  
 @app.route(root="hello")
 
