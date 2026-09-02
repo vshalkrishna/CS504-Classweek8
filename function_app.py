@@ -3,7 +3,6 @@ import logging
 import os
 
 import azure.functions as func
-import pyodbc
 
 # NOTE: When deploying, Azure Functions (Python v2 model) expects this file
 # to be named function_app.py at the root of the function app project.
